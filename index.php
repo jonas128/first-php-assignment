@@ -1,1 +1,12 @@
-<?= 'The Elephpent in the Room'; ?>
+<?=
+
+require __DIR__ . '/header.php';
+
+?>
+
+
+<?=
+
+require __DIR__ . '/footer.php';
+
+?>
