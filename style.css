@@ -1,0 +1,37 @@
+:root {
+  /* Font sizes*/
+  --h1: 2rem;
+  --h2: 1.5rem;
+  --p: 1rem;
+
+  /* Colors*/
+  --color-black: #000;
+  --color-light-green: #f4fffc;
+
+  /* Font family*/
+  --font-family-base: verdana, arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-light-green);
+  font-family: var(--font-family-base);
+  color: var(--color-black);
+  margin: 0;
+}
+
+button {
+  background-color: rgb(240, 193, 240);
+  color: var(--color-black);
+  padding: 25px;
+}
+
+footer {
+  font-family: var(--font-family-base);
+  background-color: #c3ece1;
+  margin: 0 auto;
+  padding: 30px;
+}
