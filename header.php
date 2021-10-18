@@ -1,14 +1,14 @@
-<?=
+<!DOCTYPE html>
+<html lang="en">
 
-$title = 'Wonderful Coffee';
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wonderful Coffee</title>
+</head>
 
-?>
+<body>
+    <header>
 
-<<!DOCTYPE html>
-    <html lang="en">
-
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title><?php echo $title; ?></title>
-    </head>
+        <h1>Välkommen till Wonderful Coffee</h1>
+    </header>
