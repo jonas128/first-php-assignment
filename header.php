@@ -14,5 +14,5 @@ require __DIR__ . '/data.php';
 <body>
     <header>
 
-        <h1>Välkommen till Wonderful Coffee</h1>
+        <h1>Welcome to Wonderful Coffee</h1>
     </header>
