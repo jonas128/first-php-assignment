@@ -9,6 +9,7 @@ require __DIR__ . '/data.php';
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Wonderful Coffee</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
