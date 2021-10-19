@@ -67,5 +67,3 @@ $rewies = [
     'Could have tasted a little more i think, will not have this again.',
     'It\'s looks like tea.',
 ];
-shuffle($filters);
-foreach ($filters as $filter);
