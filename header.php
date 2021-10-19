@@ -18,3 +18,9 @@ require __DIR__ . '/functions.php';
 
         <h1>Welcome to Wonderful Coffee</h1>
     </header>
+    <nav>
+        <ul>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="ourCoffee.php">Our Coffee</a></li>
+        </ul>
+    </nav>
