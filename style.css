@@ -7,6 +7,8 @@
   /* Colors*/
   --color-black: #000;
   --color-light-green: #f4fffc;
+  --color-green: #c3ece1;
+  --color-button: rgb(240, 193, 240);
 
   /* Font family*/
   --font-family-base: verdana, arial, sans-serif;
@@ -23,15 +25,22 @@ body {
   margin: 0;
 }
 
+nav {
+  background-color: var(--color-green);
+  width: 100%;
+}
+
 button {
-  background-color: rgb(240, 193, 240);
+  background-color: var(--color-button);
   color: var(--color-black);
   padding: 25px;
 }
 
 footer {
   font-family: var(--font-family-base);
-  background-color: #c3ece1;
+  background-color: var(--color-green);
+  position: absolute;
+  width: 100%;
   margin: 0 auto;
   padding: 30px;
 }
