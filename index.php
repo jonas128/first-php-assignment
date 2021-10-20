@@ -9,7 +9,7 @@ require __DIR__ . '/header.php';
     <p> Press the button below and we will select one for you!</p>
     <button onClick="window.location.reload();">Select Coffee</button>
     <?php $randIndex = getRandomIndex($filters) ?>
-    <img src="<?= $filters[$randIndex]['image'] ?>">
+    <img src="<?= $filters[$randIndex]['image'] ?>" alt="the label on coffee">
     <p><?= $filters[$randIndex]['name'] ?></p>
 </main>
 
