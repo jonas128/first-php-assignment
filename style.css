@@ -23,14 +23,27 @@ body {
   font-family: var(--font-family-base);
   color: var(--color-black);
   margin: 0;
+  width: 100%;
 }
 
 nav {
   background-color: var(--color-green);
+  position: relative;
+  padding: 20px;
   width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
-button {
+.container {
+  flex-direction: column;
+  display: flex;
+  margin: auto;
+  width: 800px;
+  align-items: left;
+}
+
+.button {
   background-color: var(--color-button);
   color: var(--color-black);
   padding: 25px;
@@ -41,6 +54,5 @@ footer {
   background-color: var(--color-green);
   position: absolute;
   width: 100%;
-  margin: 0 auto;
   padding: 30px;
 }
