@@ -15,8 +15,9 @@ require __DIR__ . '/functions.php';
 
 <body>
     <header>
-
-        <h1>Welcome to Wonderful Coffee</h1>
+        <div class='head1-text'>
+            <h1>Welcome to Wonderful Coffee</h1>
+        </div>
     </header>
     <nav>
         <a href="index.php">Home</a>
