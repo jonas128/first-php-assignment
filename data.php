@@ -56,10 +56,10 @@ $filters = [
     ],
 ];
 
-$rewies = [
-    'Mmmm this is lovely!',
+$reviews = [
+    'Mmmm this is good!',
     'Reminds me about summer.',
-    'Just want more!',
+    'Just want more, it\'s so good!',
     'I want all my cups of coffee to taste like this',
     'Could have tasted a little more i think, will not have this again.',
     'It\'s looks like tea.',
