@@ -17,7 +17,7 @@ git clone https://github.com/h-emma/first-php-assignment
 ```
 - Start php server ```php -S localhost:8000```
  
-- Open up you browser and past in this link:
+- Open up you browser and paste in this link:
 ```http://localhost:8000/index.php```
 
 # Code Review
