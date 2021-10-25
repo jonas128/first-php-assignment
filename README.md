@@ -4,7 +4,7 @@
 
 This project helps the user to select what kind of to buy. The user can also read about all the coffees we offers.
 
-To visit the site click [here] (https://emma-h.com/index.php).
+To visit the site click [here](https://emma-h.com/index.php).
 
 
 
@@ -12,12 +12,13 @@ To visit the site click [here] (https://emma-h.com/index.php).
 
 To install this prject follow the folloing list
 - Clone the project
+```
 git clone https://github.com/h-emma/first-php-assignment
-
-- Start php server php -S localhost:8000
+```
+- Start php server ```php -S localhost:8000```
  
 - Open up you browser and past in this link:
-http://localhost:8000/index.php
+```http://localhost:8000/index.php```
 
 # Code Review
 
