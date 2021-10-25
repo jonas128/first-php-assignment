@@ -2,7 +2,7 @@
 
 # Wonderful Coffee
 
-This project helps the user to select what kind of to buy. The user can also read about all the coffees we offers.
+This project helps the user to select what kind coffee of to buy. The user can also read about all the coffees we offers.
 
 To visit the site click [here](https://emma-h.com/index.php).
 
@@ -10,7 +10,7 @@ To visit the site click [here](https://emma-h.com/index.php).
 
 # Installation
 
-To install this prject follow the folloing list
+To install this project follow this list
 - Clone the project
 ```
 git clone https://github.com/h-emma/first-php-assignment
