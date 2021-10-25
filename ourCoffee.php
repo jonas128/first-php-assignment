@@ -13,7 +13,6 @@ require __DIR__ . '/header.php';
                     <p><?= "$label: $info"  ?></p>
                 <?php endif; ?>
             <?php endforeach; ?>
-
             <img src="<?= $filter['image'] ?>">
 
         <?php endforeach ?>
