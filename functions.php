@@ -8,13 +8,13 @@ function getRandomIndex(array $anyArray): int
     return rand(0, $arrayLenght - 1);
 }
 
-// function getFirstLetterUc(array $label)
-// {
-//     foreach ($label as $key => $value) {
-//         $newKey = ucfirst(($key));
-//         if ($newKey != $key) {
-//             unset($label[$key]);
-//             $label[$newKey] = $value;
-//         }
-//     }
-// }
+
+function getOnlyGoodReviews(array $reviews): string
+{
+    $good = "good";
+
+    foreach ($reviews as $review) {
+        if (strpos($review, $good) !== false)
+            return $review;
+    }
+}
