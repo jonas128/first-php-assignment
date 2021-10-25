@@ -1,12 +1,24 @@
-INSERT MANDATORY GIF
+<img src="https://media.giphy.com/media/xULW8tFJvm5JJYnZkc/giphy.gif">
 
-# Project Title
+# Wonderful Coffee
 
-Text about the project and why it exists. This would also be a great place to link the project on One.com.
+This project helps the user to select what kind of to buy. The user can also read about all the coffees we offers.
+
+To visit the site click [here](https://emma-h.com/index.php).
+
+
 
 # Installation
 
-Add the installation instructions.
+To install this prject follow the folloing list
+- Clone the project
+```
+git clone https://github.com/h-emma/first-php-assignment
+```
+- Start php server ```php -S localhost:8000```
+ 
+- Open up you browser and paste in this link:
+```http://localhost:8000/index.php```
 
 # Code Review
 
