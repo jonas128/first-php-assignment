@@ -22,4 +22,5 @@ require __DIR__ . '/functions.php';
     <nav>
         <a href="index.php">Home</a>
         <a href="ourCoffee.php">Our Coffee</a>
+        <a href="reviews.php">Our reviews</a>
     </nav>
