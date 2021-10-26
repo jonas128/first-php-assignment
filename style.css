@@ -24,6 +24,9 @@ body {
   color: var(--color-black);
   margin: 0;
   width: 100%;
+  min-height: 100vh;
+  position: relative;
+  /* text-align: center; */
 }
 
 nav {
@@ -51,8 +54,13 @@ nav {
   font-size: var(--p);
   color: var(--color-black);
   margin: 10px;
-  display: flex;
-  justify-content: left;
+  /* display: flex;
+  justify-content: left; */
+  text-align: center;
+}
+
+main {
+  min-height: 80vh;
 }
 
 .container {
@@ -86,7 +94,8 @@ img {
 footer {
   font-family: var(--font-family-base);
   background-color: var(--color-green);
-  position: absolute;
+  position: relative;
+  bottom: 0;
   width: 100%;
   padding: 30px;
 }
