@@ -7,7 +7,10 @@ require __DIR__ . '/header.php';
     <h1>So what do our
         customers think about our coffee?</h1>
 
-    <p><?= getOnlyGoodReviews($reviews) ?></p>
+    <?php $goodReviews = getOnlyGoodReviews($reviews);
+    foreach ($goodReviews as $goodReview) {
+        echo "$goodReview \n ";
+    } ?>
 </main>
 
 <?php
