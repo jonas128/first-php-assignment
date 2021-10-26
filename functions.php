@@ -9,12 +9,14 @@ function getRandomIndex(array $anyArray): int
 }
 
 
-function getOnlyGoodReviews(array $reviews): string
+function getOnlyGoodReviews(array $reviews): array
 {
+    $goodReviews = [];
     $good = "good";
 
     foreach ($reviews as $review) {
         if (strpos($review, $good) !== false)
-            return $review;
+            array_push($goodReviews, $review);
     }
+    return $goodReviews;
 }
