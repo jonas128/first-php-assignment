@@ -13,6 +13,7 @@ $filters = [
         'testNotes' => 'Juicy and sweet with floral notes of strawberry lemonade and peach',
         'price' => 399,
         'image' => 'images\oreti.jpeg',
+        'alt' => '',
     ],
     [
         'name' => 'Montero Family',
@@ -23,6 +24,7 @@ $filters = [
         'testNotes' => 'Structured and creamy with notes of chocolate biscuit and ripe plum',
         'price' => 259,
         'image' => 'images\montero.png',
+        'alt' => '',
     ],
     [
         'name' => 'Gotiti',
@@ -33,6 +35,7 @@ $filters = [
         'testNotes' => 'Jammy and elegant with notes of elderflower and red currant lemonade',
         'price' => 259,
         'image' => 'images\gotiti.jpeg',
+        'alt' => '',
     ],
     [
         'name' => 'Bekele Legie',
@@ -43,6 +46,7 @@ $filters = [
         'testNotes' => 'Juicy and sweet with notes of ripe grapes and Earl Grey tea',
         'price' => 259,
         'image' => 'images\bekeleLegie.png',
+        'alt' => '',
     ],
     [
         'name' => 'Sandra Milena Mora',
@@ -53,6 +57,7 @@ $filters = [
         'testNotes' => 'Layered and sweet with notes of red apple and milk chocolate',
         'price' => 399,
         'image' => 'images\sandraMilenaMora.jpeg',
+        'alt' => '',
     ],
 ];
 
