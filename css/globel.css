@@ -1,0 +1,72 @@
+:root {
+  /* Font sizes*/
+  --h1: 1.75rem;
+  --h2: 1.5rem;
+  --p: 1rem;
+
+  /* Colors*/
+  --color-black: #000;
+  --color-light-green: #f4fffc;
+  --color-green: #c3ece1;
+  --color-button: rgb(240, 193, 240);
+  --color-blue: rgb(28, 99, 170);
+
+  /* Font family*/
+  --font-family-base: verdana, arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--color-light-green);
+  font-family: var(--font-family-base);
+  color: var(--color-black);
+  margin: 0;
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  /* text-align: center; */
+}
+
+header {
+  background-color: var(--color-green);
+  position: relative;
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  color: var(--color-black);
+  text-decoration: none;
+  padding: 5px;
+}
+
+li a:hover {
+  color: white;
+}
+
+main {
+  margin: 10px;
+  min-height: 80vh;
+}
+
+footer {
+  font-family: var(--font-family-base);
+  background-color: var(--color-green);
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  padding: 30px;
+}
