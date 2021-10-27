@@ -2,15 +2,16 @@
 
 require __DIR__ . '/header.php';
 
+$goodReviews = getOnlyGoodReviews($reviews);
+
 ?>
 <main>
-    <h1>So what do our
-        customers think about our coffee?</h1>
-
-    <?php $goodReviews = getOnlyGoodReviews($reviews);
-    foreach ($goodReviews as $goodReview) {
-        echo "$goodReview \n ";
-    } ?>
+    <h1>So what do our customers think of our coffee?</h1>
+    <ul>
+        <?php foreach ($goodReviews as $goodReview) : ?>
+            <li class="goodReviews"><?= $goodReview ?></li>
+        <?php endforeach; ?>
+    </ul>
 </main>
 
 <?php
