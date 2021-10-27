@@ -5,17 +5,17 @@ require __DIR__ . '/header.php';
 ?>
 <main>
     <h1>This is all of our filter coffee</h1>
-    <div class='container'>
+    <div class='allFilterCoffee'>
         <?php foreach ($filters as $filter) : ?>
-
-            <?php foreach ($filter as $label => $info) :
-                if ($label !== 'image') : ?>
-                    <p><?= "$label: $info"  ?></p>
-                <?php endif; ?>
-            <?php endforeach; ?>
-            <img src="<?= $filter['image'] ?>">
-
-        <?php endforeach ?>
+            <p>Name: <?= $filter['name'] ?></p>
+            <p>Variety: <?= $filter['variety'] ?></p>
+            <p>Process: <?= $filter['process'] ?></p>
+            <p>Altitude: <?= $filter['altitude'] ?></p>
+            <p>Harvested: <?= $filter['harvested'] ?></p>
+            <p>Test notes: <?= $filter['testNotes'] ?></p>
+            <p>Price: <?= $filter['price'] ?></p>
+            <img src="<?= $filter['image'] ?>" alt="<?= $filter['alt'] ?>">
+        <?php endforeach; ?>
     </div>
 
 </main>
