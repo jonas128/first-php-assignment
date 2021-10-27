@@ -1,0 +1,10 @@
+.coffeeChoice {
+  text-align: center;
+}
+
+.goodReviews {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  color: rgb(28, 99, 170);
+}
