@@ -10,11 +10,11 @@ require __DIR__ . '/functions.php';
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Wonderful Coffee</title>
-    <link rel="stylesheet" href="/css/globel.css">
-    <link rel="stylesheet" href="/css/img.css">
-    <link rel="stylesheet" href="/css/button.css">
-    <link rel="stylesheet" href="/css/class.css">
-    <link rel="stylesheet" href="/css/@media.css">
+    <link rel="stylesheet" href="css/globel.css">
+    <link rel="stylesheet" href="css/img.css">
+    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/class.css">
+    <link rel="stylesheet" href="css/media.css">
     <link rel="icon" type="image/png" sizes="16x16" href="images/faviconCoffee.png" />
 </head>
 
