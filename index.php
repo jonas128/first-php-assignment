@@ -6,7 +6,7 @@ require __DIR__ . '/header.php';
 
 <main>
     <section class="coffeeChoice">
-        <h2>What kind off coffe do you want?</h2>
+        <h2>Don't know what coffee to get?</h2>
         <p> Press the button below and we will select one for you!</p>
 
         <div class='button'><button onClick="window.location.reload();">Select Coffee</button></div>
