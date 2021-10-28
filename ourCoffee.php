@@ -4,7 +4,7 @@ require __DIR__ . '/header.php';
 
 ?>
 <main>
-    <h1>This is all of our filter coffee</h1>
+    <h2>This is all of our filter coffee</h2>
     <div class='allFilterCoffee'>
         <?php foreach ($filters as $filter) : ?>
             <p>Name: <?= $filter['name'] ?></p>
