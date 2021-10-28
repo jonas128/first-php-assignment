@@ -6,6 +6,9 @@
     width: 50%;
     height: 50%;
   }
+  .goodReview {
+    text-align: left;
+  }
 }
 
 @media screen and (min-width: 1024px) {
