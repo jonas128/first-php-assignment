@@ -16,6 +16,7 @@ require __DIR__ . '/functions.php';
     <link rel="stylesheet" href="css/class.css">
     <link rel="stylesheet" href="css/media.css">
     <link rel="icon" type="image/png" sizes="16x16" href="images/faviconCoffee.png" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito">
 </head>
 
 <body>
