@@ -3,8 +3,13 @@
 }
 
 .goodReview {
+  font-family: var(--font-family-base);
   display: block;
   text-align: center;
   padding: 10px;
   color: var(--color-blue);
+}
+
+.filterCoffee {
+  border-bottom: 1px solid var(--color-blue);
 }
