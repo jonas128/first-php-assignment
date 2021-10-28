@@ -12,7 +12,7 @@
   --color-blue: rgb(28, 99, 170);
 
   /* Font family*/
-  --font-family-base: verdana, arial, sans-serif;
+  --font-family-base: 'Nunito', sans-serif;
 }
 
 * {
@@ -26,7 +26,6 @@ body {
   width: 100%;
   min-height: 100vh;
   position: relative;
-  /* text-align: center; */
 }
 
 header {
@@ -59,7 +58,7 @@ li a:hover {
 
 main {
   margin: 10px;
-  min-height: 80vh;
+  min-height: 70vh;
 }
 
 footer {
