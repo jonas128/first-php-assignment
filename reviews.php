@@ -9,7 +9,7 @@ $goodReviews = getOnlyGoodReviews($reviews);
     <h2>So what do our customers think of our coffee?</h2>
     <ul>
         <?php foreach ($goodReviews as $goodReview) : ?>
-            <li class="goodReviews"><?= $goodReview ?></li>
+            <li class="goodReview"><?= $goodReview ?></li>
         <?php endforeach; ?>
     </ul>
 </main>
