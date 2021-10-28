@@ -4,7 +4,7 @@
 
 This project helps the user to select what kind coffee of to buy. The user can also read about all the coffees we offers.
 
-To visit the site click [here](https://emma-h.com/index.php).
+To visit the site click [here](https://emma-h.com/first-php-assignment/).
 
 
 
